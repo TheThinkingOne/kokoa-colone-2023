@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: var(--horizontal-space);
-    margin-bottom: 15px;
+    margin-top: 20px;
     
 }
 .screen-header__title {
@@ -16,3 +16,20 @@
     margin-top: 10px;
 }
 
+.screen-header__iconsForFind span{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.screen-header__fa-cog__notification {
+    background-color: tomato;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+    font-weight: 600;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+}
